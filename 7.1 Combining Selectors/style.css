@@ -1,0 +1,36 @@
+/* Write your code here: */
+
+/* group selector */
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/* select direct child */
+.box > p {
+    color: firebrick;
+}
+
+/* descendent - select children at any level */
+/* .box .list.done {
+    color: seagreen;
+} */
+
+.box li {
+    color: blue;
+}
+
+/* chaining - applies when all selectors are true */
+li.done {
+    color: seagreen;
+}
+
+/* combining selectors */
+
+ul > p.done {
+    font-size: 0.5rem;
+}
+
+ul p.done {
+    font-size: 0.5rem;
+}
